@@ -3,8 +3,8 @@
         id="cordova-plugin-facebook" version="0.2.2">
     <name>CordovaFacebook</name>
     <description>Cordova Facebook SDK Plugin</description>
-    <author>Blake Israel</author>
-    <license>Apache 2.0</license>
+    <author>Alejandro Salgueiro</author>
+    <license>MIT</license>
     <keywords>cordova,facebook</keywords>
 
     <js-module src="www/CordovaFacebook.js" name="CordovaFacebook">
@@ -57,6 +57,7 @@
         <source-file src="src/ios/CordovaFacebook.m" />
     </platform>
 
+    <!-- android -->    
     <platform name="android">
         <config-file target="config.xml" parent="/*">
             <feature name="CordovaFacebook">
