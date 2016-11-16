@@ -83,10 +83,9 @@
                               "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
                       android:theme="@android:style/Theme.Translucent.NoTitleBar"
                       android:label="@string/app_name" />
-            <provider android:authorities="com.facebook.app.FacebookContentProvider$FACEBOOK_APP_ID"
+            <provider android:authorities="${applicationId}"
                       android:name="com.facebook.FacebookContentProvider"
                       android:exported="true" />
-            <!-- <provider android:authorities="${applicationId}" -->
         </config-file>
 
         <source-file src="src/android/com/blakeisrael/cordova/CordovaFacebook.java" target-dir="src/com/blakeisrael/cordova/" />
