@@ -91,6 +91,6 @@
         <source-file src="src/android/com/blakeisrael/cordova/CordovaFacebook.java" target-dir="src/com/blakeisrael/cordova/" />
 
         <framework src="com.facebook.android:facebook-android-sdk:4.3.+" />
-        <framework src="push.gradle" custom="true" type="gradleReference" />            
+        <!-- <framework src="push.gradle" custom="true" type="gradleReference" />            -->
     </platform>
 </plugin>
